@@ -1,15 +1,26 @@
 What happens when you initialize a repository? Why do you need to do it?
+	When you initialize a repository, you link your local directory to your git platform. You need to do this so that you can use the git features to work with your lcoal directory
+
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+	The staging area acts as a clipboard, where you can save intermediary states of you files. It's different from a working directory because you can't actually operate on the files in thestaging area - you can't directly access it.
+	Every change we make to a different file(s) can't be pushed as a commit The staging area allows us to make multiple changes to multiple files, stores all the changes within itself and when you're ready, allows you to push it as a commit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	By adding changes made to multiple files in the staging area, reviewing them using git diff, cross-checking if it's worth committing to, and then making the commit
+
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	Branches will mainly help in creating experimental verisons of your existing files at meaningful checkpoints, without disturbing the main backbone-workflow.
+	master branch is your og - always works. Other sub-branches are experimental	
+	think of it as "context switching"
+
 
 How do the diagrams help you visualize the branch structure?
+	Once you can visualize the branch structure, you can see which commits are accessible from which branch. And that's very powerful because you won't create any (otherwise inaccessible) commits without giving it a branch name
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
