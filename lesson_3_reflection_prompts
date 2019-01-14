@@ -6,12 +6,14 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Manually pulling makes more logical sense if you're working on a group project. You can experiment around with your tasks locally, and then when they're finally ready for everyone to see, push them on github
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    forks are used when you want to copy one person's online repo onto your online repo - and you don't mind this being visible publicly
+    clones are used when you wish to privately work OFFLINE on someone's online repo  
+    branches are used when you want to create your own version of some code - without affecting the original (online/offline)
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
